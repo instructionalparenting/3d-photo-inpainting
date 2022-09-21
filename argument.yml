@@ -3,7 +3,7 @@ depth_feat_model_ckpt: checkpoints/depth-model.pth
 rgb_feat_model_ckpt: checkpoints/color-model.pth
 MiDaS_model_ckpt: MiDaS/model.pt
 use_boostmonodepth: True
-fps: 40
+fps: 30
 num_frames: 240
 x_shift_range: [0.00, 0.00, -0.015, -0.015]
 y_shift_range: [0.00, 0.00, -0.015, -0.00]
@@ -17,7 +17,7 @@ depth_folder: depth
 mesh_folder: mesh
 video_folder: video
 load_ply: False
-save_ply: True
+save_ply: False
 inference_video: True
 gpu_ids: 0
 offscreen_rendering: False
